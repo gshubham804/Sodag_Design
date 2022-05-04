@@ -1,0 +1,120 @@
+.option-main-cont{
+    padding: 2% 0%;
+}
+
+
+.option-slider-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-text{
+    text-align: center;
+}
+
+.option-text>h3{
+    font-weight: 600;
+    color: white;
+    padding: 2% 0;
+    font-size: 1.6rem;
+    background: rgb(218,217,34);
+    background: linear-gradient(90deg, rgba(218,217,34,1) 31%, rgba(123,177,57,1) 73%);
+}
+
+.option-img-cont{
+    background-image: url('../Assests/background--scroller1.png');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: -6rem 1.5rem;
+}
+
+.option-img-cont2{
+    background-image: url('../Assests/background--scroller1.png');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: -6rem 1rem;
+}
+
+.option-img-cont4{
+    background-image: url('../Assests/background--scroller1.png');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: -6.3rem 0.6rem;
+}
+
+.option-img>img{
+    width: 130%;
+    object-fit: contain;
+    margin-left: -5rem;
+}
+
+@media screen and (max-width:412px){
+    
+    .option-text>h3{
+        font-weight: 600;
+        color: white;
+        padding: 2% 0;
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and  (max-width:450px){
+    .option-img-cont{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4rem 1.5rem;
+    }
+
+    .option-img>img{
+        width: 130%;
+        object-fit: contain;
+        margin-left: -3rem;
+    }
+
+    .option-img-cont2{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4.5rem 0.8rem;
+    }
+
+    .option-img-cont4{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4.2rem 0.6rem;
+    } 
+}
+
+@media screen and (min-width:480px) and (max-width:600px){
+    .option-img-cont{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4rem 1.2rem;
+    }
+
+    .option-img>img{
+        width: 130%;
+        object-fit: contain;
+        margin-left: -3rem;
+    }
+
+    .option-img-cont2{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4.5rem 0.6rem;
+    }
+
+    .option-img-cont4{
+        background-image: url('../Assests/background--scroller1.png');
+        background-repeat: no-repeat;
+        background-size: 140%;
+        background-position: -4.2rem 0.4rem;
+    } 
+}

@@ -1,0 +1,5 @@
+
+.header-img-wrap>img{
+    width: 100%;
+    object-fit: contain;
+}
