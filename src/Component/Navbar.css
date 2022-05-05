@@ -7,24 +7,23 @@ body{
   background-size: cover;
   background-position: center;
   width: 100%;
-  /* height: 100vh; */
 }
 nav{
+    padding-top: 15px;
     background: rgb(218,217,34);
     background: linear-gradient(90deg, rgba(218,217,34,1) 31%, rgba(123,177,57,1) 73%);
-  height: 60px;
   width: 100%;
 }
 
 .nav-logo{
-    height: 3.6rem;
+    height: 2.5rem;
     background-image: url('../Assests//logo.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
-  line-height: 60px;
   padding: 0 100px;
 }
+
 
 label.logo:hover{
 cursor: pointer;
@@ -37,16 +36,19 @@ nav ul{
 
 nav ul li {
   display: inline-block;
-  line-height: 60px;
-  margin: 0 5px;
+
 }
 
 nav ul li:hover{
     background-color: white;
-    transform: skew(30deg);
+    transform: skew(20deg);
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #DAD922, #7BB139);
     border-image-slice: 1;  
+}
+
+nav ul li a:hover{
+    transform: skew(-20deg);
 }
 
 .last-option:hover{
@@ -81,7 +83,6 @@ a:hover{
   font-size: 30px;
   color: white;
   float: right;
-  line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
   display: none;
