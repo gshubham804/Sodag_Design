@@ -1,74 +1,130 @@
-.navbar-main-cont{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family: 'Poppins';
+}
+.BG{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  /* height: 100vh; */
+}
+nav{
     background: rgb(218,217,34);
     background: linear-gradient(90deg, rgba(218,217,34,1) 31%, rgba(123,177,57,1) 73%);
+  height: 60px;
+  width: 100%;
 }
 
-.navbar-brand-img{
-    height: 2rem;
-    width: 6rem;
-    background-image: url('../Assests/logo.png');
+.nav-logo{
+    height: 3.6rem;
+    background-image: url('../Assests//logo.png');
     background-repeat: no-repeat;
-    background-size: 130%;
     background-position: center;
+    background-size: 80%;
+  line-height: 60px;
+  padding: 0 100px;
 }
 
-
-.navbar-li-cont li{
-    font-size: 1.2rem;
-    font-weight: 600;
+label.logo:hover{
+cursor: pointer;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: white;
+nav ul{
+  float: right;
+  margin-right: 20px;
 }
 
-.navbar-li-cont li:hover{
+nav ul li {
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 5px;
+}
+
+nav ul li:hover{
     background-color: white;
-}
-
-
-.navbar-light .navbar-nav .nav-link:hover {
-        background-image: linear-gradient(120deg, #DAD922, #7BB139);
-        background-clip: text;
-        color: transparent;
-        font-weight: 600;
-        offset: 0;
-}
-
-.li-slant:hover{
-    transform: skew(35deg);
-    padding: 0 0.5rem;
+    transform: skew(30deg);
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #DAD922, #7BB139);
-    border-image-slice: 1;
-    
-    }
-
-.li-slant:hover>*{
-    transform: skew(-35deg);
+    border-image-slice: 1;  
 }
 
-.li-onesideslant:hover{
-    padding-left: 1.6rem;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%);
+.last-option:hover{
+    padding-left: 0.8rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 20% 100%);
     border: 2px solid transparent;
     border-image: linear-gradient(to right, #DAD922, #7BB139);
+    border-image-slice: 0;
     border-image-slice: 1;
 }
 
-.navbar-brand{
+
+nav ul li a{
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 13px;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+    background-image: linear-gradient(120deg, #DAD922, #7BB139);
+    background-clip: text;
+    color: transparent;
     font-weight: 600;
-    font-size: 1.6rem;
-    margin-left: 4rem;
+    offset: 0;
+  transition: .5s;
 }
 
-.navbar-expand-lg .navbar-collapse {
-    padding-right: 4rem;
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none ;
+}
+@media (max-width: 952px){
+label.logo{
+  font-size: 30px;
+  padding-left: 5px;
+}
+nav ul li a{
+  font-size: 16px;
+}
+
+}
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 60%;
+    height: 100vh;
+    background: rgb(218,217,34);
+    background: linear-gradient(90deg, rgba(218,217,34,1) 31%, rgba(123,177,57,1) 73%);
+    top: 60px;
+    z-index: 11;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  
+#check:checked ~ ul{
+  left: 0;
+}
 }
