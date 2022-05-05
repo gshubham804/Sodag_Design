@@ -6,10 +6,12 @@ import Option from './Component/Option'
 import Noteschema from './Component/Noteschema';
 import Footerupdate from './Component/footerupdate'
 import Notesupdate from './Component/Notesupdate';
+import Navbar from './Component/Navbar';
 
 function App() {
   return (
     <>
+    <Navbar/>
     <Header/>
     <Option/>
     <Know/>
