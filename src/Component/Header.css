@@ -3,3 +3,19 @@
     width: 100%;
     object-fit: contain;
 }
+
+.header-main-wrap{
+    width: 100%;
+    position: relative;
+  }
+  video{
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .content-wrapper{
+      width: 100%;
+    position: absolute;
+   top: 0rem;
+   left: 0rem;
+  }

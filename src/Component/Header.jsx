@@ -1,9 +1,10 @@
 import React from 'react'
 import './Header.css'
 import Slider from "react-slick";
-import img1 from '../Assests/front-1.png'
-import img2 from '../Assests/front-2.png'
-import img3 from '../Assests/front-3.png'
+import img1 from '../Assests/bnn1.png'
+import img2 from '../Assests/bnn2.png'
+import img3 from '../Assests/bnn3.png'
+import vdo from '../Assests/video.mp4';
 
 const Header = () => {
     const settings = {
@@ -20,6 +21,9 @@ const Header = () => {
     <>
 <div className='header-main-cont'>
   <div className="header-main-wrap">
+  <video autoPlay loop muted src={vdo}></video>
+  
+  <div className="content-wrapper">
         <Slider {...settings}>
             <div className="header-img-cont">
               <div className="header-img-wrap">
@@ -40,6 +44,7 @@ const Header = () => {
             </div>
 
         </Slider>
+        </div>
         </div>
         </div>
     </>
