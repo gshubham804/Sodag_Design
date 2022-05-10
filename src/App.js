@@ -7,15 +7,19 @@ import Noteschema from './Component/Noteschema';
 import Footerupdate from './Component/footerupdate'
 import Notesupdate from './Component/Notesupdate';
 import Navbar from './Component/Navbar';
+import Sodagall from './Component/Sodagall';
+import SodagallSlider from './Component/SodagallSlider';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Header/>
-    <Option/>
+    <SodagallSlider/>
+    {/* <Sodagall/> */}
+    {/* <Navbar/> */}
+    {/* <Header/> */}
+    {/* <Option/>
     <Know/>
-    <Footerupdate/>
+    <Footerupdate/> */}
     
     </>
   );
