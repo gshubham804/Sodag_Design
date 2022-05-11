@@ -1,5 +1,5 @@
 .sodagall-main-cont{
-    padding: 0 2%;
+    padding: 0 18%;
 }
 
 .sodagall-top{
@@ -14,8 +14,8 @@
 .sodagall-top>h5{
     position: absolute;
     text-align: left;
-    right: 1.7rem;
-    width: 70%;
+    right: 15.2rem;
+    width: 40%;
     padding: 0.3% 0 0 16%;
     font-size: 1.5rem;
 clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);

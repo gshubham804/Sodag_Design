@@ -1,5 +1,6 @@
 import React from "react";
 import Sodagall from "./Sodagall.css";
+import SodagallSlider from "./SodagallSlider";
 
 const Sodag = () => {
   return (
@@ -10,6 +11,7 @@ const Sodag = () => {
               <h5>Soda G All Products</h5>
               <p>by Welable Pharma</p>
           </div>
+          <SodagallSlider/>
         <div className="sodagall-hor">
           <div className="sodag-flat-line">
               <h5>How Soda-G Works?</h5>
