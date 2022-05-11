@@ -15,9 +15,9 @@ const Navbar = () => {
       <a class="active" href="/home"> <label class="logo"><div className="nav-logo"></div></label></a>
 
       <ul>
-        <li><a class="active" href="/home">HOME</a></li>
-        <li><a href="/sodagall">PRODUCTS</a></li>
-        <li><a href="/about">ABOUT</a></li>
+        <li><Link to="/home">HOME</Link></li>
+        <li><Link to="/sodagall">PRODUCTS</Link></li>
+        <li><Link to="/about">ABOUT</Link></li>
         <li className='last-option'><a href="#">CONTACT US</a></li>
       </ul>
     </nav>
