@@ -28,6 +28,46 @@ background: linear-gradient(90deg,  rgba(123,177,57,1) 31% ,rgba(218,217,34,1) 7
     padding: 2.5rem 0 0 0;
 }
 
+.sodagall-mix{
+    padding: 3% 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sodagall-mix-second{
+    text-align: center;
+    padding-left: 10%;
+}
+
+.sodagall-mix-bgimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Assests/background--scroller1.png');
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sodagall-mix-bgimg>img{
+    width: 8rem;
+    object-fit: contain;
+    object-position: center ;
+}
+
+.cut-polygon{
+    margin: 10% 0;
+    height: 2rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 8% 100%);
+background: rgb(218,217,34);
+background: linear-gradient(90deg,  rgba(123,177,57,1) 31% ,rgba(218,217,34,1) 73%);
+
+}
+
+
 .sodag-flat-line{
     background-color: #FF1D25;
     border-radius: 10px;
