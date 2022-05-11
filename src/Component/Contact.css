@@ -1,0 +1,155 @@
+.main-container{
+    margin: 0;
+    padding: 0;
+
+}
+.contact-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3rem 1rem;
+    font-size: 2rem;
+    background:linear-gradient(90deg, rgba(255, 99, 0, 1) 0%, rgba(255, 0, 45, 1) 100%);
+  
+    margin-bottom: 6rem;
+    height: 15rem;
+}
+.contact-first>*{
+    padding-bottom: 3rem;
+}
+.box{
+    
+    padding: 5rem;
+    border-radius: none;
+}
+.input-container>h4{
+    padding: 1rem 0;
+}
+
+.para-1{
+    color: white;
+    padding: 0 5rem;
+}
+.para-2{
+    color:white;
+    padding:0  5rem;
+    padding-top: 2rem;
+}
+.description{
+    height: 5rem;
+}
+
+.contact-third{
+    margin-top: -4.5rem;
+    padding: 2rem 0;
+    background:linear-gradient(90deg, rgba(255, 99, 0, 1) 0%, rgba(255, 0, 45, 1) 100%);
+}
+.contact-third>*{
+    margin-top: 5rem;
+}
+.contact-second{
+    transform: skewY(4deg);
+    height: 150vh;
+    margin-top: -11rem;
+    z-index: 11;
+    background-color: white;
+   }
+.box{
+ 
+    padding: 5rem;
+    width: 100vw;
+    margin-top: -6rem;
+    position: relative;
+    z-index: 111;
+
+    
+}
+ 
+.input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+     background: rgb(20,198,19);
+    border-radius: none;
+    background: linear-gradient(90deg, rgba(20,198,19,1) 0%, rgba(167,221,23,1) 70%);
+    
+}
+.input-container>*{
+    transform: skewY(-4deg);
+}
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+    padding: 0 0.5rem;
+  }
+.custom-btn{
+    width: 30%;
+    align-items: center;
+    margin: auto;
+    border-radius: none;
+    border: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+button{
+    border-radius: none;
+}
+
+.input-container>input{
+    margin: 0.3rem 0;
+    border: none;
+    line-height: 2rem;
+    border: solid white 1.5px ;
+    border-radius: 8px;
+    background:none;
+}
+button:hover{
+    background:linear-gradient(90deg, rgba(255, 99, 0, 1) 0%, rgba(255, 0, 45, 1) 100%);
+    color:white;
+    border-color:red ;
+
+}
+
+@media screen and (max-width:414px) {
+    .contact-second{
+        height: auto;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        padding:0 1rem;
+        border-radius: none;
+        margin: 0;
+    }
+    .box{
+    
+        padding: 1rem;
+        border-radius: none;
+    }
+    .contact-third{
+        padding: .5rem 0;
+        background-color: red;
+    }
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        padding: 1rem;
+        border-radius: none;
+        
+    }
+    .para-1{
+        color: white;
+        padding: 0 2rem;
+    }
+    .para-2{
+        color:white;
+        padding:0  2rem;
+        /* padding-top: 2rem; */
+    }
+    
+    
+    
+}

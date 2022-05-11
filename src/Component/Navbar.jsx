@@ -2,7 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import logo from '../Assests/logo.png'
 import { Link } from 'react-router-dom'
- 
+
 const Navbar = () => {
   return (
     <>
@@ -18,7 +18,7 @@ const Navbar = () => {
         <li><Link to="/home">HOME</Link></li>
         <li><Link to="/sodagall">PRODUCTS</Link></li>
         <li><Link to="/about">ABOUT</Link></li>
-        <li className='last-option'><a href="#">CONTACT US</a></li>
+        <li className='last-option'><Link to="/contact">CONTACT US</Link></li>
       </ul>
     </nav>
 
