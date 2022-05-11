@@ -6,7 +6,7 @@ import Option from './Option'
 const Home = () => {
   return (
     <>
-    <Header/>
+    {/* <Header/> */}
     <Option/>
     <Know/>
     </>
